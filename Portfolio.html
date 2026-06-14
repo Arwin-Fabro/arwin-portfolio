@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Arwin Fabro | Game Developer Portfolio</title>
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <canvas id="dotBackground"></canvas>
+    <header>
+        <nav class="navbar">
+            <h1 class="logo">Arwin Fabro</h1>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <button class="menu-btn" onclick="toggleMenu()">☰</button>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <p class="small-title">Game Developer Portfolio</p>
+            <h2>Hi, I'm <span>Arwin Fabro</span></h2>
+            <p>
+                I create games using Unity, Construct 3, AR, computer graphics, and PlayStation development.
+                I enjoy building gameplay systems, interactive experiences, and stylized game worlds.
+            </p>
+            <div class="hero-buttons">
+                <a href="#projects" class="btn">View Projects</a>
+                <!-- Put your resume PDF in the folder and change the file name below -->
+                <a href="resume.pdf" class="btn secondary">Download Resume</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="about" class="section">
+        <h2>About Me</h2>
+        <p>
+            I am a game development student with experience in Unity, Construct 3, AR development,
+            computer graphics, gameplay programming, and PlayStation 5 development. My projects range
+            from 2D arcade games to 3D boss fights, AR games, and personal spell-based combat systems.
+        </p>
+    </section>
+
+    <section id="skills" class="section dark">
+        <h2>Skills</h2>
+        <div class="skills-grid">
+            <div>Unity</div>
+            <div>C#</div>
+            <div>Construct 3</div>
+            <div>HTML / CSS / JavaScript</div>
+            <div>AR Foundation</div>
+            <div>Gameplay Programming</div>
+            <div>2D Computer Graphics</div>
+            <div>3D Computer Graphics</div>
+            <div>PS5 Development</div>
+            <div>Game UI / UX</div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2>Projects</h2>
+        <div class="project-grid">
+
+            <div class="project-card">
+                <!-- Put your video/image here. Example: <video src="videos/ephialtes.mp4" controls></video> -->
+                <div class="media-placeholder">Video / Image Here</div>
+                <h3>Ephialtes</h3>
+                <p>A 3D top-down escape game created in Unity during ITE.</p>
+                <p class="tag">Unity · 3D · Escape Game</p>
+            </div>
+
+            <div class="project-card">
+                <!-- Put your video/image here. Example: <video src="videos/mr-pointy.mp4" controls></video> -->
+                <div class="media-placeholder">Video / Image Here</div>
+                <h3>Mr Pointy and the Lost Gems</h3>
+                <p>A game developed using Construct 3, focused on simple gameplay and level design.</p>
+                <p class="tag">Construct 3 · 2D Game</p>
+            </div>
+
+            <div class="project-card">
+                <!-- Put your video/image here. Example: <video src="videos/neon-maze.mp4" controls></video> -->
+                <div class="media-placeholder">Video / Image Here</div>
+                <h3>2D Neon Maze</h3>
+                <p>A 2D maze game with a neon visual style.</p>
+                <p class="tag">2D · Maze Game</p>
+            </div>
+
+            <div class="project-card">
+                <!-- Put your video/image here. Example: <video src="videos/computer-graphics.mp4" controls></video> -->
+                <div class="media-placeholder">Video / Image Here</div>
+                <h3>2D & 3D Computer Graphics</h3>
+                <p>Created characters using shapes and animated them through 2D and 3D computer graphics techniques.</p>
+                <p class="tag">Computer Graphics · Animation</p>
+            </div>
+
+            <div class="project-card">
+                <!-- Put your video/image here. Example: <video src="videos/stellar-scrap.mp4" controls></video> -->
+                <div class="media-placeholder">Video / Image Here</div>
+                <h3>Stellar Scrap</h3>
+                <p>A 2D space meteor shooting game where the player survives by shooting incoming meteors.</p>
+                <p class="tag">2D · Space Shooter</p>
+            </div>
+
+            <div class="project-card">
+                <!-- Put your video/image here. Example: <video src="videos/impermanence.mp4" controls></video> -->
+                <div class="media-placeholder">Video / Image Here</div>
+                <h3>Impermanence</h3>
+                <p>A final year 2 project made with art students. It is a 3D boss fight game focused on combat and atmosphere.</p>
+                <p class="tag">Unity · 3D · Boss Fight</p>
+            </div>
+
+            <div class="project-card">
+                <!-- Put your video/image here. Example: <video src="videos/cat-delivery.mp4" controls></video> -->
+                <div class="media-placeholder">Video / Image Here</div>
+                <h3>3D Cat Delivery Game</h3>
+                <p>A PlayStation 5 game where the player controls a cat, collects packages, avoids cars, and delivers items.</p>
+                <p class="tag">PS5 · 3D · Third-Person</p>
+            </div>
+
+            <div class="project-card">
+                <!-- Put your video/image here. Example: <video src="videos/spellcraft-chaos.mp4" controls></video> -->
+                <div class="media-placeholder">Video / Image Here</div>
+                <h3>Spellcraft Chaos</h3>
+                <p>An ongoing personal project. A 3D arena wave-based magic game with spells, enemies, upgrades, and combat systems.</p>
+                <p class="tag">Unity · 3D · Magic Combat</p>
+            </div>
+
+            <div class="project-card">
+                <!-- Put your video/image here. Example: <video src="videos/ar-games.mp4" controls></video> -->
+                <div class="media-placeholder">Video / Image Here</div>
+                <h3>AR Games</h3>
+                <p>AR projects using marker and markerless tracking, spawning interactive 3D objects in the real world.</p>
+                <p class="tag">Unity · AR Foundation · Mobile AR</p>
+            </div>
+
+        </div>
+    </section>
+
+    <section id="contact" class="section dark">
+        <h2>Contact</h2>
+        <p>Email: flarwingo@gmail.com</p>
+        <p><a href="https://www.linkedin.com/in/arwin-fabro-4855b3252/" target="_blank">LinkedIn</a></p>
+        <p><a href="https://github.com/flarwingo" target="_blank">GitHub</a></p>
+        <p><a href="https://flarwingo.itch.io/" target="_blank">Itch.io</a></p>
+    </section>
+
+    <footer>
+        <p>© 2026 Arwin Fabro. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
